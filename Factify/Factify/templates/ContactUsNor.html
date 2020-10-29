@@ -69,9 +69,11 @@
       <p class="leading-relaxed mb-5 text-gray-600">The website is constantly under development, so your feedback is extremely crucial.</p>
       <form method = "post" action = "/ContactUs">
       {%csrf_token%}
-        <input class="bg-white rounded border border-gray-400 focus:outline-none focus:border-orange-500 text-base px-4 py-2 mb-4" placeholder="Name" name = "name" type="text">
-        <input class="bg-white rounded border border-gray-400 focus:outline-none focus:border-orange-500 text-base px-4 py-2 mb-4" placeholder="Email" name = "email" type="email">
-        <textarea class="bg-white rounded border border-gray-400 focus:outline-none h-32 focus:border-orange-500 text-base px-4 py-2 mb-4 resize-none" name = "message" placeholder="Message"></textarea>
+        <input style = "width:30vw" class="bg-white rounded border border-gray-400 focus:outline-none focus:border-orange-500 text-base px-4 py-2 mb-4" placeholder="Name" name = "name" type="text">
+        <br>
+        <input style = "width:30vw" class="bg-white rounded border border-gray-400 focus:outline-none focus:border-orange-500 text-base px-4 py-2 mb-4" placeholder="Email" name = "email" type="email">
+        <br>
+        <textarea style = "width:30vw" class="bg-white rounded border border-gray-400 focus:outline-none h-32 focus:border-orange-500 text-base px-4 py-2 mb-4 resize-none" name = "message" placeholder="Message"></textarea>
         <br>
         <button class="text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg" type = "Submit">Submit</button>
     </div>
