@@ -1,4 +1,7 @@
-django 
+django
 pandas
-numpy
 bs4
+sklearn
+numpy
+random2
+requests
